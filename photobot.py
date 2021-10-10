@@ -147,7 +147,7 @@ def unknown(update, context):
 
 
 def main():
-    token='2097873912:AAEnxI65jpT3TRqup0vpamJgq6zB23faQh4'
+    token='{{ your token here }}'
     #replace the curly braces with your bot token
     updater = Updater(token=token, use_context=True)
     dispatcher = updater.dispatcher
